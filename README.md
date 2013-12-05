@@ -17,8 +17,11 @@ Capistrano deployment with deploy_via set to :remote_copy,
 # Example
 
 ``` yaml
-add-ssh-deploy-key:
-  keyname: MYPACKAGE_KEY
+deploy:
+  steps:
+    - williamli/add-ssh-deploy-key:
+      keyname: MYPACKAGE_KEY
+    - cap
 ```
 
 # What's new
