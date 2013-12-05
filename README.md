@@ -20,7 +20,7 @@ Capistrano deployment with deploy_via set to :remote_copy,
 deploy:
   steps:
     - williamli/add-ssh-deploy-key:
-      keyname: MYPACKAGE_KEY
+        keyname: MYPACKAGE_KEY
     - cap
 ```
 
@@ -30,8 +30,8 @@ New in town.
  
 # History
 
+* 0.0.3 - Updates example in README
 * 0.0.2 - Adds README
-
 * 0.0.1 - Initial version
 
 # License
