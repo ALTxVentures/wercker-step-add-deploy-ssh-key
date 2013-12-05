@@ -30,6 +30,7 @@ New in town.
  
 # History
 
+* 0.0.4 - Fix incorrect step name in README example
 * 0.0.3 - Updates example in README
 * 0.0.2 - Adds README
 * 0.0.1 - Initial version
