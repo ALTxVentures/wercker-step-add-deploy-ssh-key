@@ -1,5 +1,5 @@
 name: add-deploy-ssh-key
-version: 0.0.6
+version: 0.0.7
 description: |
   Wercker allows you to generate SSH keys and expose them as via
   environment variables to your build or deployment pipeline.
@@ -10,3 +10,9 @@ description: |
   This step is created especially to streamline the use of
   Capistrano deployment with deploy_via set to :remote_copy, 
   :export, or :checkout.
+keywords:
+  - ssh
+  - ssh-add
+  - ssh-keygen
+  - Capistrano
+  - deployment

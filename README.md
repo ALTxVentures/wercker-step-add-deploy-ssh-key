@@ -31,6 +31,7 @@ New in town.
  
 # History
 
+* 0.0.7 - Adds keywords
 * 0.0.6 - A better picture of how this step can be used in a cap deploy
 * 0.0.5 - Fix incorrect step name in README example (again??!!)
 * 0.0.4 - Fix incorrect step name in README example
