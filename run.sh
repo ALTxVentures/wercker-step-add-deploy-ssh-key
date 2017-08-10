@@ -5,5 +5,5 @@
 export PRIVATEKEY_PATH=`mktemp`
 privateKey=$(eval echo "\$${WERCKER_ADD_DEPLOY_SSH_KEY_KEYNAME}_PRIVATE")
 echo -e "$privateKey" > $PRIVATEKEY_PATH
-eval `ssh-agent -s`
+if [[ ! -n $SSH_AGENT_PID ]]; then eval `ssh-agent -s`; fi
 ssh-add $PRIVATEKEY_PATH
